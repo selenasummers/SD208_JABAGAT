@@ -1,0 +1,33 @@
+*{
+    font-family: Marcellus SC;
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+}
+
+textarea{
+    width: 50%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+button{
+    width: 10%;
+    padding: 0.5%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: thistle;
+}
+
+hr{
+    width: 80%;
+}
+
+.bait{
+    color: red;
+}
+
+.honest{
+    color: yellowgreen;
+}

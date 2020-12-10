@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(bookmark-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+}
+
+.container .overlay-text{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    height: 913px;
+    width: 50%;
+    padding-left: 40px;
+    font-family: Alegreya SC;
+}
+
+h1{
+    font-family: Cinzel Decorative;
+    font-size: 75px;
+}
+
+.input-field, .input-field:focus {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 10px;
+    color: black;
+    outline: none;
+    font-family: Alegreya SC;
+    font-size: 15px;
+}
+
+.input-field:focus{
+    border: 2px solid #20ac9e;
+}
+
+input[value]{
+    background-color: #1c978b;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    opacity: 0.9;
+    font-family: Alegreya SC;
+}
+
+input[value]:hover{
+    opacity: 1;
+}
+
+.submit-button, .clear-button{
+    margin-left: 30px;
+    margin-top: 1%;
+}
+
+.bookmarks-display{
+    margin-left: 55%;
+    font-family: Alegreya SC;
+}
+
+.bookmarks-list{
+    position: static;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    padding: 12px;
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+.x-button{
+    margin-bottom: 1%;
+}

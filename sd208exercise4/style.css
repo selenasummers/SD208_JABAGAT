@@ -1,0 +1,199 @@
+.error{
+    color: #FF0000;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Margarine;
+}
+
+body{
+    background-image: url(exo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    margin: 8% 0% 8% 2%;
+}
+
+.register{
+    display: inline-flex;
+    box-shadow: 4px 4px 10px black, 4px 4px 10px gray;
+}
+
+.register-form{
+    background: #f2f2f2;
+    padding: 50px;
+    width: auto;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 15px; 
+    position: static;
+}
+
+.icon {
+    padding: 10px;
+    background: #660066;
+    color: white;
+    min-width: 40px;
+    text-align: center;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+
+.input-field:focus {
+    border: 2px solid #660066;
+}
+
+
+input[value]{
+    background-color: #660066;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+input[value]:hover{
+    opacity: 1;
+}
+
+.side-pic-register{
+    width: 400px;
+    height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.side-pic-login, .side-pic-register{
+    width: 400px;
+    height: 650px;
+}
+
+
+

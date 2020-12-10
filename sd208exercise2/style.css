@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: Margarine;
+}
+
+body{
+    background-image: url(exo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    margin: 8% 0% 8% 2%;
+}
+
+.login, .register{
+    display: inline-flex;
+    box-shadow: 4px 4px 10px black, 4px 4px 10px gray;
+}
+
+.login-form, .register-form{
+    background: #f2f2f2;
+    padding: 50px;
+    margin: auto;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: #660066;
+    color: white;
+    min-width: 40px;
+    text-align: center;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+
+.input-field:focus {
+    border: 2px solid #660066;
+}
+
+
+input[value]{
+    background-color: #660066;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+input[value]:hover{
+    opacity: 1;
+}
+
+.side-pic-login, .side-pic-register{
+    width: 400px;
+    height: 700px;
+}
+
+.up-pic-login{
+    border-radius: 50%;
+    width: 163px;
+    height: 170px;
+}
+
+p{
+    color: #808080;
+}
+
+a{
+    color:#CC99CC;
+}
+
+
+

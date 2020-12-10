@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(background3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+}
+
+.container .overlay-text{
+    position: absolute;
+    background: rgb(38, 38, 38, 0.5); /* Pink background with 0.5 opacity */
+    color: whitesmoke;
+    height: 913px;
+    width: 40%;
+    padding-left: 25px;
+    font-family: Alegreya SC;
+}
+
+.logo{
+    height: 125px;
+    width: auto;
+    margin-left: 35%;
+}
+
+h1{
+    font-family: Cinzel Decorative;
+    font-size: 50px;
+}
+
+.h1-fir{
+    margin-left: 4%;
+}
+
+.h1-sec{
+    margin-left: 30%;
+}
+
+.comment{
+    font-family: Cinzel Decorative;
+    margin-left: 30%;
+}
+
+.input-container {
+    display: flex;
+    margin-left: 3%;
+}
+
+.icon {
+    padding: 12px;
+    background: #db81b5;
+    color: white;
+    min-width: 40px;
+    max-height: 44px;
+    text-align: center;
+}
+
+.input-field, .input-field:focus {
+    margin-bottom: 15px;
+    width: 60%;
+    padding: 10px;
+    color: black;
+    outline: none;
+    font-family: Alegreya SC;
+    font-size: 15px;
+}
+
+.input-field:focus{
+    border: 2px solid #db81b5;
+}
+
+.submit-button{
+    background-color: #db81b5;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    opacity: 0.9;
+    font-family: Alegreya SC;
+}
+
+.submit-button:hover{
+    opacity: 1;
+}
+
+.submit-button{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+table{
+    font-family: Alegreya SC;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+  
+td, th{
+    border: 1px solid #b3327d;
+    text-align: center;
+    padding: 8px;
+}
+
+th{
+    background-color: #db81b5;
+}
+  
+tr:nth-child(even){
+    background-color: #e9afd1;
+}
+
+tr:nth-child(odd){
+    background-color:#f2f2f2;
+}
+
+button{
+    background-color: #db81b5;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: auto;
+    font-family: Alegreya SC;
+    border: 1px solid #b3327d;
+    font-size: 12px;
+}
+
